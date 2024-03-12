@@ -227,7 +227,7 @@ button {
 
     button {
         position: relative;
-        top: 5%;
+        top: 40%;
         left: 15%
     }
 }
@@ -249,7 +249,7 @@ button {
     }
 
     button {
-        top: 45%;
+        top: 50%;
         position: absolute;
         left: 35%;
     }

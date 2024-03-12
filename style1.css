@@ -197,8 +197,8 @@ button {
         opacity: 0;
     }
 
-    75% {
-        top: 50%;
+    60% {
+        top: 45%;
         opacity: 1;
     }
 

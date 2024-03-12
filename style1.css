@@ -55,8 +55,8 @@ button {
 
 
 .animation-box {
-    width: 75%;
-    height: 30rem;
+    width: 60%;
+    height: 40rem;
     margin: 20px auto;
     overflow: hidden;
     position: relative;
@@ -75,7 +75,7 @@ button {
     font-size: 30px;
     margin: 4px 2px;
     top: 30%;
-    left: 30%;
+    left: 26%;
     right: 25%;
 }
 
@@ -205,5 +205,52 @@ button {
     100% {
         top: -3rem;
         opacity: 0;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .animation-box {
+        width: 75%;
+        height: 45rem;
+        margin: 15px auto;
+    }
+
+    .qt {
+        font-size: 20px;
+        top: 10%;
+        left: 10%;
+        right: 10%;
+        flex-wrap: wrap;
+        padding: 10px 20px;
+        position: absolute;
+    }
+
+    button {
+        position: relative;
+        top: 10%;
+        left: 15%
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .animation-box {
+        width: 75%;
+        height: 45rem;
+    }
+
+    .qt {
+        font-size: 20px;
+        top: 10%;
+        left: 10%;
+        right: 10%;
+        flex-wrap: wrap;
+        padding: 10px 20px;
+        position: absolute;
+    }
+
+    button {
+        top: 45%;
+        position: absolute;
+        left: 35%;
     }
 }

@@ -212,8 +212,8 @@ button {
         opacity: 0;
     }
 
-    75% {
-        top: 50%;
+    65% {
+        top: 40%;
         opacity: 1;
     }
 
@@ -228,7 +228,7 @@ button {
         width: 75%;
         height: 45rem;
         margin: 15px auto;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .qt {
@@ -252,6 +252,7 @@ button {
     .animation-box {
         width: 75%;
         height: 45rem;
+        font-size:2.5rem
     }
 
     .qt {

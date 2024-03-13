@@ -213,7 +213,7 @@ button {
     }
 
     75% {
-        top: 40%;
+        top: 50%;
         opacity: 1;
     }
 
@@ -225,10 +225,10 @@ button {
 
 @media only screen and (max-width:600px) {
     .animation-box {
-        width: 60%;
+        width: 75%;
         height: 45rem;
         margin: 15px auto;
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .qt {
@@ -247,29 +247,47 @@ button {
         left: 15%
     }
 
-@keyframes sai1 {
-    0% {
-        top: -3rem;
-        opacity: 0;
+    .nin-text {
+        font-size: 2rem;
     }
 
-    65% {
-        top: 30%;
-        opacity: 1;
+    .eig-text {
+        font-size: 2rem;
     }
 
-    100% {
-        top: -3rem;
-        opacity: 0;
+    .six-text {
+        font-size: 2rem;
     }
-}
+
+    .sev-text {
+        font-size: 2rem;
+    }
+
+    .fiv-text {
+        font-size: 2rem;
+    }
+
+    .for-text {
+        font-size: 2rem;
+    }
+
+    .first-text {
+        font-size: 2rem;
+    }
+
+    .sec-text {
+        font-size: 2rem;
+    }
+
+    .thi-text {
+        font-size: 2rem;
+    }
 }
 
 @media only screen and (max-width:800px) {
     .animation-box {
-        width: 60%;
+        width: 75%;
         height: 45rem;
-        font-size:2rem
     }
 
     .qt {
@@ -287,20 +305,40 @@ button {
         position: absolute;
         left: 35%;
     }
-    @keyframes sai1 {
-    0% {
-        top: -3rem;
-        opacity: 0;
+
+    .nin-text {
+        font-size: 2rem;
     }
 
-    65% {
-        top: 30%;
-        opacity: 1;
+    .eig-text {
+        font-size: 2rem;
     }
 
-    100% {
-        top: -3rem;
-        opacity: 0;
+    .six-text {
+        font-size: 2rem;
     }
-}
+
+    .sev-text {
+        font-size: 2rem;
+    }
+
+    .fiv-text {
+        font-size: 2rem;
+    }
+
+    .for-text {
+        font-size: 2rem;
+    }
+
+    .first-text {
+        font-size: 2rem;
+    }
+
+    .sec-text {
+        font-size: 2rem;
+    }
+
+    .thi-text {
+        font-size: 2rem;
+    }
 }

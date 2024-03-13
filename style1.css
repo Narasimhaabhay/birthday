@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lobster&family=Pacifico&family=Poppins&display=swap');
+
 body {
     font-style: Arial;
     background-color: black;
@@ -189,6 +191,19 @@ button {
     animation-delay: 45s;
 }
 
+.nin-text {
+    font-size: 4.0rem;
+    color: white;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation-name: sai1;
+    animation-duration: 50s;
+    animation-delay: 52s;
+    font-family: Pacifico, Lobster, Lobsters;
+}
+
 
 
 @keyframes sai1 {
@@ -197,8 +212,8 @@ button {
         opacity: 0;
     }
 
-    60% {
-        top: 45%;
+    75% {
+        top: 50%;
         opacity: 1;
     }
 
@@ -213,6 +228,7 @@ button {
         width: 75%;
         height: 45rem;
         margin: 15px auto;
+        font-size: 3rem;
     }
 
     .qt {
@@ -226,8 +242,8 @@ button {
     }
 
     button {
-        position: absolute;
-        top: 40%;
+        position: relative;
+        top: 20%;
         left: 15%
     }
 }

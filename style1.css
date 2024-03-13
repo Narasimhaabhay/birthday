@@ -187,7 +187,7 @@ button {
     justify-content: center;
     opacity: 0;
     animation-name: sai1;
-    animation-duration: 8s;
+    animation-duration: 7s;
     animation-delay: 45s;
 }
 
@@ -200,7 +200,7 @@ button {
     opacity: 0;
     animation-name: sai1;
     animation-duration: 50s;
-    animation-delay: 52s;
+    animation-delay: 50s;
     font-family: Pacifico, Lobster, Lobsters;
 }
 
